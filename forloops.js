@@ -1,0 +1,24 @@
+alert("connected");
+console.log("PRINTING ALL NUMBERS BETWEEN -10 AND 9");
+for(var i=-10;i<20;i++){
+console.log(i);
+}
+console.log("PRINTING ALL EVEN  NUMBERS BETWEEN 10 AND 40");
+for(var i=10;i<=40;i++){
+	if(i%2==0){
+		console.log(i);
+	}
+}
+console.log("PRINTING ALL ODD NUMBERS BETWEEN 0 AND 300");
+for (var i=300; i<=333;i++){
+	if(i%2!=0){
+		console.log(i);
+	}
+
+}
+console.log("PRINTING ALL NUMBERS DIVISIBLE BY 5");
+for(var i=5;i<=50;i++){
+	if(i%5===0 && i%3===0){
+		console.log(arr[i]);
+    }
+}
